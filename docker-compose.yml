@@ -2,7 +2,6 @@ services:
   vite-react-app:
     build:
       context: .
-      dockerfile: Dockerfile
     volumes:
       - /tiffy:/output
     restart: unless-stopped
